@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/user_emails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="#CF1559"
+        android:textSize="14sp"
+        tools:text="shivamc@123" />
+
+    <TextView
+        android:id="@+id/user_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        tools:text="klfkdfd dfjdfdf dfkdlfkdlf fdfkdlf dfkdlfkdf dfklfkd kldfklfkd dkkldf kldfdf; dfdlfdkf dlfkdlfkd kldfdfls;fdk  kdlfkdlfkoit fufdnkvdd ddfldfkd f dfd fdkfdlfkdf dff dfdlfd ireur qpa;.dd fdf dlkaklmvca 55 4 a fdfkfldf;s" />
+</LinearLayout>

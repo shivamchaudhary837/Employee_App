@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">EmployeeExample</string>
+
+
+    <string name="edit_employee">Edit Employee</string>
+    <string name="save_employee">Save</string>
+    <string name="delete_employee">Delete</string>
+    <string name="enter_employee_name">Enter employee name</string>
+    <string name="employee_photo">Employee Photo</string>
+    <string name="gender">Gender</string>
+    <string name="role">Role</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="age">Age</string>
+
+    <string name="export_data">Export employee data</string>
+    <string name="import_data">Import employee data</string>
+
+    <string name="company_name">Employee Star Pvt. Ltd.</string>
+    <string name="years">%1$d years</string>
+    <string name="no_app_csv">No app to read CSV file</string>
+    <string name="latest_employee_name">Latest employee name</string>
+    <string name="latest_employee">The name of latest employee is: %1$s</string>
+    <string name="no_employee_added">No employee added yet</string>
+    <string name="share_employee_data">Share Employee data</string>
+    <string name="share_text">Employee Data\nName: %1$s\nRole: %2$s\nAge: %3$d\nGender: %4$s</string>
+    <string name="create_file_error">Error occurred creating file: %1$s</string>
+
+    <string name="share_data_title">Choose the app to send data</string>
+    <string name="email">Email</string>
+    <string name="responsibilities">Responsibilities</string>
+    <string name="experience">Experience</string>
+    <string name="education">Education</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="take_photo_from_camera">Take photo from camera</string>
+    <string name="pick_photo_from_gallery">Pick photo from gallery</string>
+
+    <string name="no_db_record">There are no employees to show.\n
+        Please add an employee by clicking the bottom right button</string>
+
+    <string name="employee_validate_error_message">Please enter the %1$s of employee</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="add_new_employee">Add New Employee</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+
+    <string name="about_us_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla elementum fermentum ante, vel faucibus libero elementum quis. Ut condimentum enim vel viverra tincidunt. Morbi ut tempor augue. Pellentesque at lorem ex. Nunc varius ex at mi elementum finibus. In et convallis turpis. Mauris consequat aliquet risus, eu venenatis ipsum. Vestibulum viverra nibh est, eu porta nulla dignissim sit amet. Maecenas venenatis leo et elit lacinia dapibus non eu sapien.\n\n
+
+Quisque consequat tempor mi a molestie. Nam ut ornare nibh, a semper risus. Pellentesque iaculis magna urna, ut molestie tortor mattis vitae. In hac habitasse platea dictumst. Donec id ornare nibh, et placerat orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce consequat tincidunt egestas. Nullam consequat ante vel nunc eleifend mollis. Curabitur vitae pharetra dui. Suspendisse dignissim augue quis lectus tincidunt auctor. Proin molestie sed orci id mollis. Ut lacinia, sem id dictum eleifend, augue arcu rhoncus risus, eget dapibus quam ipsum eu dolor. Aenean ullamcorper velit eu nulla luctus posuere. Donec at orci eget mi imperdiet malesuada. Fusce eget tincidunt ex. Proin in magna tortor.\n\n
+
+Phasellus vulputate lobortis orci, sed varius leo commodo faucibus. Nulla eu leo velit. Suspendisse rutrum blandit interdum. Aenean posuere nunc id dolor laoreet, nec pretium eros auctor. Fusce sit amet cursus tellus. Duis sed mi consectetur, tincidunt nulla ut, sagittis nisi. Praesent consectetur elit at ligula aliquet, in malesuada ligula euismod. Cras tempor ac lectus a blandit. Etiam bibendum, enim nec imperdiet lobortis, ante sem euismod arcu, vestibulum pulvinar tortor felis facilisis ipsum. Nunc in erat metus. Mauris feugiat blandit dui id volutpat. Mauris non iaculis nibh, ut bibendum tortor. Maecenas lorem augue, consectetur hendrerit fermentum id, fringilla sit amet elit. Ut venenatis tincidunt eleifend. In in tortor dictum, blandit metus at, sollicitudin dolor.\n\n
+
+Sed non eleifend diam. Suspendisse cursus aliquam consectetur. In augue turpis, sodales vitae quam a, hendrerit malesuada odio. Quisque tempor ipsum nec sapien ornare, eget volutpat ligula tristique. Sed erat justo, accumsan quis fermentum nec, maximus at arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse vel vestibulum dui. Praesent blandit ut ex et maximus. Fusce quis odio dolor. Aenean non velit ut sapien volutpat faucibus id quis ipsum. Sed pulvinar urna sit amet velit volutpat, sed condimentum ipsum tempus.
+    </string>
+
+    <string name="postal_address">
+        561, Sunrise Hills,\n
+        Easter Point Road,\n
+        Gurugram, Haryana - 122001\n
+        India
+    </string>
+    <string name="website">Website:</string>
+    <string name="website_address">www.employeeexample.com</string>
+    <string name="phone_number">+91-1234567890</string>
+    <string name="employee_of_the_day">Employee of the day</string>
+    <string name="employee_of_the_day_name">YAY! %1$s is the chosen one</string>
+    <string name="alarm_set_message">Alarm set for 30 minutes from now</string>
+    <string name="alarm_channel">Employee example alarm notification channel</string>
+    <string name="employee_alarm">Employee Alarm</string>
+    <string name="alarm_data">Set alarm 30 minutes from now</string>
+    <string name="email_hint">Email</string>
+    <string name="logo_hint">Employee Logo</string>
+    <string name="pswd_hint">Password</string>
+    <string name="login_text">LOGIN</string>
+    <string name="register_text">NOT REGISTER? CLICK HERE TO REGISTER</string>
+    <string name="register_txt">REGISTER</string>
+    <string name="already_register">ALREADY REGISTERED?CLICK HERE TO LOGIN</string>
+    <string name="valid_email">Please enter an email address</string>
+    <string name="valid_pswd">Please enter password</string>
+    <string name="valid_pswd_length">Password should be 8 characters or more</string>
+    <string name="sign_out">Sign out</string>
+    <string name="enter_a_message_text">Enter a message</string>
+    <string name="hint_sent_msg">send message</string>
+    <string name="company_chat">Company chat</string>
+    <string name="empty_msg_text">Please enter a message to send</string>
+    <string name="unknown_text">Unknown</string>
+
+</resources>

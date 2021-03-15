@@ -20,6 +20,7 @@
             android:layout_marginTop="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            android:hint="@string/email_hint"
             app:layout_constraintTop_toBottomOf="@+id/progress"
             tools:visibility="visible">
 
@@ -27,7 +28,7 @@
                 android:id="@+id/user_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/email_hint"
+
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -45,12 +46,11 @@
                 android:id="@+id/user_pass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/pswd_hint"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/employee_app_logo"
             android:layout_width="101dp"
             android:layout_height="136dp"
             android:layout_marginTop="16dp"
@@ -71,14 +71,15 @@
             app:layout_constraintTop_toBottomOf="@+id/user_pswd_container" />
 
 
-        <TextView
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:text="@string/register_text"
-            android:textColor="#17881C"
+            android:textColor="#1F830E"
             android:textStyle="bold"
+            app:backgroundTint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/login" />
@@ -92,7 +93,7 @@
             android:visibility="invisible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/employee_app_logo"
             tools:visibility="visible" />
 
 
